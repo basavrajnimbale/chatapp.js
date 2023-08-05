@@ -1,0 +1,20 @@
+{
+  "name": "groupchat-app",
+  "version": "1.0.0",
+  "description": "A simple group-chat app based on node.js and express.js",
+  "main": "chatapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js",
+    "start-server": "nodemon main.js"
+  },
+  "author": "Basavraj Nimbale",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
